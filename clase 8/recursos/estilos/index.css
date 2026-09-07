@@ -1,0 +1,19 @@
+/*
+    Sintaxis CSS
+*/
+
+/*
+selector¨{
+    propiedad1:valor;
+    propiedad2: valor;
+
+}
+*/
+
+/*
+Selectores de TIPO
+*/
+
+body {
+    background-color:indianred;
+}

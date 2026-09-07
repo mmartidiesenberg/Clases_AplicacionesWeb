@@ -1,0 +1,29 @@
+Comandos Node
+
+Una sola vez en compus personales:
+
+1- Instalar Node JS versión estable LTS 
+
+2- Verificar si se instaló con: 
+
+-verificar versión
+node -v
+
+verificar versión de npm
+npm -v 
+
+3- Instalar pnpm (en el aula cada vez)
+npm i -g pnpm
+
+En cada proyecto:
+
+-Inicializar proyecto en la ruta que quiero el desarrollo:
+pn init
+(crea el documento .json)
+
+-Instalar paquete:
+pn add five-server
+
+-Creación de .gitignore para ignorar node_modules y no se suba al repo (no le hacemos seguimiento)
+-Para volver a instalar lo que figura en package.json:
+pn install
