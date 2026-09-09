@@ -1,0 +1,82 @@
+/*
+    Sintaxis CSS
+*/
+
+/*
+selector¨{
+    propiedad1:valor;
+    propiedad2: valor;
+
+}
+*/
+
+/*selector UNIVERSAL*/
+*{
+    
+}
+
+
+/*
+Selectores de TIPO
+*/
+
+body {
+    background-color:indianred;
+}
+
+header {
+    background-color:lavender;
+}
+
+
+/* ESPECIFICIDAD hay selectores mas importantes que otros*/
+header {
+    background-color:gold;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+/* SELECTORES DE CLASE */
+/*  .vinculos{
+        color:blueviolet;
+   }
+*/
+
+/* combinación de selectores */
+
+/* --------------- */
+/* ENCABEZADO PRINCIPAL */
+
+.encabezado-principal{
+    background-color:lightcoral;
+}
+
+.encabezado-principal .vinculos a {
+    color:#222;
+}
+
+
+/* --------------- */
+.contenido-principal{
+    background-color: lightblue;
+}
+
+/* --------------- */
+.pie-principal{
+    background-color: lightcoral;
+}
+
+/* este no se usa Selector ID 
+#contactos{
+    background-color: mediumvioletred;
+}
+*/
+
+/*Selector de ATRIBUTO*/
+[class]{
+
+}
+

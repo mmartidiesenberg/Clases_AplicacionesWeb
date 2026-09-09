@@ -27,3 +27,9 @@ pn add five-server
 -Creación de .gitignore para ignorar node_modules y no se suba al repo (no le hacemos seguimiento)
 -Para volver a instalar lo que figura en package.json:
 pn install
+
+-https://www.npmjs.com/
+
+-https://pnpm.io/es/
+
+-pn dev
