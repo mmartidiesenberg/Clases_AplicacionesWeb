@@ -37,5 +37,11 @@ function filtrarPorTalle(productos, talle){
     })
 }
 
+//mientras haya un awair hay un async
+async function obtenerDatos(url){
+    const respuesta = await fetch(url) //<- pedimos un recurso via http
+    const datos = await respuesta.json()
+    console.log(datos)
+}
 
-export {renderizarCatalogo, filtrarPorTalle}
+export {renderizarCatalogo, filtrarPorTalle, obtenerDatos}

@@ -1,7 +1,9 @@
 
 // import hola from "./productos.js" //no nombrada
-import {productosMascotas, categorias} from './productos.js' //nombrada
-import {filtrarPorTalle, renderizarCatalogo} from "./funciones.js"
+//import {productosMascotas, categorias} from './productos.js' //nombrada
+import {filtrarPorTalle, renderizarCatalogo, obtenerDatos} from "./funciones.js"
+//obtener datos
+obtenerDatos('./recursos/datos/productos.json')
 
 const productosEnCarro = []
 //console.log(contenedorProductos)
@@ -16,10 +18,13 @@ const dialogo = document.getElementById('dialogo')
 const productosSeleccionados= document.getElementById('productos-seleccionados')
 
 
+
+
+//filtrar
 const productosFiltrados = filtrarPorTalle(productosMascotas, 'S')
 
 //Renderizamos
-renderizarCatalogo(contenedorProductos, productosFiltrados)
+//renderizarCatalogo(contenedorProductos, productosFiltrados)
 
 //Eventos
 botonEvento.addEventListener('click', (evento)=>{
